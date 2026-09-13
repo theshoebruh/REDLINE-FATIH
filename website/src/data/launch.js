@@ -4,7 +4,7 @@
    While it is on, add ?preview to the URL (e.g. https://redlinefaith.co.za/?preview)
    to see the shop anyway. */
 
-export const COMING_SOON = true;
+export const COMING_SOON = false;
 
 export const COMING_SOON_COPY = {
   status: 'Pre-launch',

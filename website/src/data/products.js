@@ -17,10 +17,10 @@ export const PRODUCTS = [
     idea: 'A rotary housing half-buried at the mouth of an empty tomb. The engine that never dies, next to the grave that could not hold Him — sector markers, kanji and a cross on the horizon.',
     scripture: 'Matthew 28:6 — "He is not here; He has risen, just as He said." Printed across the back under the tomb, with the chest hit reading the power of resurrection.',
     images: [
-      { src: 'images/products/jdm-01/front-flat.png',  label: 'Front flat' },
-      { src: 'images/products/jdm-01/back-flat.png',   label: 'Back flat' },
-      { src: 'images/products/jdm-01/model-back.png',  label: 'Model back' },
-      { src: 'images/products/jdm-01/model-front.png', label: 'Model front' }
+      { src: 'images/products/jdm-01/front-flat.webp',  label: 'Front flat' },
+      { src: 'images/products/jdm-01/back-flat.webp',   label: 'Back flat' },
+      { src: 'images/products/jdm-01/model-back.webp',  label: 'Model back' },
+      { src: 'images/products/jdm-01/model-front.webp', label: 'Model front' }
     ]
   },
   {
@@ -36,13 +36,13 @@ export const PRODUCTS = [
     idea: 'A Supra sitting wet under Fuji and a blood-red sun, tail lights bleeding into the tarmac. The valley you drive through at 2am and the valley the psalm talks about are the same road — you are just not on it alone.',
     scripture: 'Psalm 23:4 — "Even though I walk through the valley..." set beside the kanji for Psalm 23 down the right-hand side, with FAITH / CARS / COMMUNITY / ETERNAL stamped at the hem.',
     images: [
-      { src: 'images/products/jdm-02/back-flat.png',    label: 'Back flat' },
-      { src: 'images/products/jdm-02/front-flat.png',   label: 'Front flat' },
-      { src: 'images/products/jdm-02/detail-type.png',  label: 'Type detail' },
-      { src: 'images/products/jdm-02/detail-car.png',   label: 'Car detail' },
-      { src: 'images/products/jdm-02/detail-fuji.png',  label: 'Fuji detail' },
-      { src: 'images/products/jdm-02/detail-psalm.png', label: 'Psalm 23' },
-      { src: 'images/products/jdm-02/detail-label.png', label: 'Neck label' }
+      { src: 'images/products/jdm-02/back-flat.webp',    label: 'Back flat' },
+      { src: 'images/products/jdm-02/front-flat.webp',   label: 'Front flat' },
+      { src: 'images/products/jdm-02/detail-type.webp',  label: 'Type detail' },
+      { src: 'images/products/jdm-02/detail-car.webp',   label: 'Car detail' },
+      { src: 'images/products/jdm-02/detail-fuji.webp',  label: 'Fuji detail' },
+      { src: 'images/products/jdm-02/detail-psalm.webp', label: 'Psalm 23' },
+      { src: 'images/products/jdm-02/detail-label.webp', label: 'Neck label' }
     ]
   },
   {
@@ -58,13 +58,13 @@ export const PRODUCTS = [
     idea: 'An M3 under wet motorway lights, plate reading M-FAITH, with German signage overhead — GOTT / RICHTUNG ZWECK / KEINE UMWEGE. God, direction and purpose, no detours. The autobahn has no speed limit and no shortcuts either.',
     scripture: 'Placeholder — "Faster routes to a higher calling." Final verse to sit under the sign gantry, with CHRIST / CARS / COMMUNITY / ETERNAL at the hem.',
     images: [
-      { src: 'images/products/gdm-01/back-flat.png',    label: 'Back flat' },
-      { src: 'images/products/gdm-01/front-flat.png',   label: 'Front flat' },
-      { src: 'images/products/gdm-01/detail-type.png',  label: 'Type detail' },
-      { src: 'images/products/gdm-01/detail-car.png',   label: 'Car detail' },
-      { src: 'images/products/gdm-01/detail-cross.png', label: 'Calling' },
-      { src: 'images/products/gdm-01/detail-road.png',  label: 'Road detail' },
-      { src: 'images/products/gdm-01/detail-label.png', label: 'Neck label' }
+      { src: 'images/products/gdm-01/back-flat.webp',    label: 'Back flat' },
+      { src: 'images/products/gdm-01/front-flat.webp',   label: 'Front flat' },
+      { src: 'images/products/gdm-01/detail-type.webp',  label: 'Type detail' },
+      { src: 'images/products/gdm-01/detail-car.webp',   label: 'Car detail' },
+      { src: 'images/products/gdm-01/detail-cross.webp', label: 'Calling' },
+      { src: 'images/products/gdm-01/detail-road.webp',  label: 'Road detail' },
+      { src: 'images/products/gdm-01/detail-label.webp', label: 'Neck label' }
     ]
   },
   {
@@ -80,13 +80,13 @@ export const PRODUCTS = [
     idea: 'An RS3 climbing the Stelvio in the wet, hairpins stacked into cloud, plate reading NARROW. The road nobody takes by accident — fewer lanes, more commitment, better view at the top.',
     scripture: 'Matthew 7:14 — the narrow road that leads to life. Set beside the kanji for "narrow road" down the right, with DISCIPLINE LEADS FURTHER at the hem. Final translation TBC.',
     images: [
-      { src: 'images/products/gdm-02/back-flat.png',    label: 'Back flat' },
-      { src: 'images/products/gdm-02/front-flat.png',   label: 'Front flat' },
-      { src: 'images/products/gdm-02/detail-pass.png',  label: 'The pass' },
-      { src: 'images/products/gdm-02/detail-car.png',   label: 'Car detail' },
-      { src: 'images/products/gdm-02/detail-peaks.png', label: 'Peaks' },
-      { src: 'images/products/gdm-02/detail-kanji.png', label: 'Narrow road' },
-      { src: 'images/products/gdm-02/detail-label.png', label: 'Neck label' }
+      { src: 'images/products/gdm-02/back-flat.webp',    label: 'Back flat' },
+      { src: 'images/products/gdm-02/front-flat.webp',   label: 'Front flat' },
+      { src: 'images/products/gdm-02/detail-pass.webp',  label: 'The pass' },
+      { src: 'images/products/gdm-02/detail-car.webp',   label: 'Car detail' },
+      { src: 'images/products/gdm-02/detail-peaks.webp', label: 'Peaks' },
+      { src: 'images/products/gdm-02/detail-kanji.webp', label: 'Narrow road' },
+      { src: 'images/products/gdm-02/detail-label.webp', label: 'Neck label' }
     ]
   },
   {
@@ -102,13 +102,13 @@ export const PRODUCTS = [
     idea: 'An E46 sitting wet under an overpass at 2am, angel eyes lit, city behind it. Street culture without the ego — built for more than horsepower. The kanji reads "mercy in the dead of night".',
     scripture: 'Lamentations 3:22-23 — mercies new every morning, printed for the people still out when the morning arrives. Final verse TBC.',
     images: [
-      { src: 'images/products/street-01/back-flat.png',     label: 'Back flat' },
-      { src: 'images/products/street-01/front-flat.png',    label: 'Front flat' },
-      { src: 'images/products/street-01/detail-chest.png',  label: 'Chest print' },
-      { src: 'images/products/street-01/detail-back.png',   label: 'Back print' },
-      { src: 'images/products/street-01/detail-neck.png',   label: 'Neck label' },
-      { src: 'images/products/street-01/detail-sleeve.png', label: 'Sleeve' },
-      { src: 'images/products/street-01/detail-hem.png',    label: 'Hem label' }
+      { src: 'images/products/street-01/back-flat.webp',     label: 'Back flat' },
+      { src: 'images/products/street-01/front-flat.webp',    label: 'Front flat' },
+      { src: 'images/products/street-01/detail-chest.webp',  label: 'Chest print' },
+      { src: 'images/products/street-01/detail-back.webp',   label: 'Back print' },
+      { src: 'images/products/street-01/detail-neck.webp',   label: 'Neck label' },
+      { src: 'images/products/street-01/detail-sleeve.webp', label: 'Sleeve' },
+      { src: 'images/products/street-01/detail-hem.webp',    label: 'Hem label' }
     ]
   },
   { sku: 'STREET 02', slug: 'street-02', name: 'No Replica', collection: 'STREET', price: 660, inStock: true, popularity: 72, rating: 4.5, reviewCount: 14 },
