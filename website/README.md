@@ -25,6 +25,21 @@ Settings → Pages — **not** via a `CNAME` file, which Actions-based Pages ign
 GoDaddy records: four `A` records on `@` → 185.199.108.153, .109.153, .110.153,
 .111.153, and `CNAME` `www` → `theshoebruh.github.io`.
 
+## Pre-launch screen
+
+`src/pages/ComingSoon.jsx` replaces the whole site while `COMING_SOON` is `true` in
+`src/data/launch.js` (all its copy lives there too). It is deliberately static —
+no countdown, no email signup, no contact line. Add `?preview` to the URL to see
+the shop while it is on.
+
+## Work-in-progress disclaimer
+
+`src/components/DisclaimerGate.jsx` — full-screen notice shown when entering the
+shop: the designs are AI-generated placeholders, real artists will make the final
+artwork, and the store is not live. Acknowledged state lives in sessionStorage, so
+it shows once per visit. Delete the component and its mount in
+`layouts/SiteLayout.jsx` when the real artwork lands and the store opens.
+
 ## What works
 
 Everything is client-side with mock data — no backend, no payments.

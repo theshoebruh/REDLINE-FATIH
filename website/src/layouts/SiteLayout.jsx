@@ -4,10 +4,12 @@ import Footer from '../components/Footer.jsx';
 import CartDrawer from '../components/CartDrawer.jsx';
 import BulkModal from '../components/BulkModal.jsx';
 import Toast from '../components/Toast.jsx';
+import DisclaimerGate from '../components/DisclaimerGate.jsx';
 
 export default function SiteLayout({ children }) {
   return (
     <>
+      <DisclaimerGate />
       <Header />
       {children}
       <Footer />

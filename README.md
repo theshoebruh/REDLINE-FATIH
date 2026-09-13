@@ -45,9 +45,10 @@ Tetris, with new sheets opened as they fill. The customer experience stays four 
 
 | Area | State |
 | --- | --- |
-| Website prototype | Functional, click-through, mock data |
+| Website prototype | Functional, click-through, mock data. Opens with a work-in-progress disclaimer. |
 | Brand identity | Provisional — palette and logo will move |
 | Product range | T-shirts only, 10 designs, 1 with real artwork |
-| Photography | Hero + JDM 01 supplied; rest are labelled placeholders |
+| Photography | Hero, JDM 01/02, GDM 01/02, STREET 01 supplied; rest are labelled placeholders |
+| Product artwork | AI-generated placeholders — real artists to be commissioned |
 | Payments | Placeholder, SA provider to be selected |
 | Fulfilment | Supplier sheet format confirmed at 100 × 60 cm |

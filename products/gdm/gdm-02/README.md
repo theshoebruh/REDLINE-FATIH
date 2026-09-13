@@ -1,7 +1,7 @@
 # Narrow Road — GDM 02
 
 **Collection:** GDM
-**Status:** Concept only. Currently flagged sold out in the prototype.
+**Status:** Artwork final. Photography in place. Currently flagged sold out in the prototype.
 
 ## Files expected here
 ```
@@ -13,7 +13,7 @@ model-back.png    worn, back
 print-detail.png  close crop of the print
 ```
 
-Nothing supplied yet — the site renders a labelled placeholder plate for this SKU.
+`sheet-original.png` is the supplied one-sheet; the flats and detail crops were cut from it. Copies the site actually loads live in `website/public/images/products/gdm-02/`.
 
 ## Copy
 `THE IDEA` and `THE SCRIPTURE` for this product are in

@@ -1,7 +1,7 @@
 # Redline Psalm — JDM 02
 
 **Collection:** JDM
-**Status:** Concept only.
+**Status:** Artwork final. Photography in place.
 
 ## Files expected here
 ```
@@ -13,7 +13,7 @@ model-back.png    worn, back
 print-detail.png  close crop of the print
 ```
 
-Nothing supplied yet — the site renders a labelled placeholder plate for this SKU.
+`sheet-original.png` is the supplied one-sheet; the flats and detail crops were cut from it. Copies the site actually loads live in `website/public/images/products/jdm-02/`.
 
 ## Copy
 `THE IDEA` and `THE SCRIPTURE` for this product are in
