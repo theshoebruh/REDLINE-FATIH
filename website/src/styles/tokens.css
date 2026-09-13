@@ -1,0 +1,26 @@
+/* REDLINE FAITH — design tokens.
+   Brand identity is not final: change these values to re-skin the whole site. */
+:root {
+  /* colour */
+  --rf-bg: #09090A;
+  --rf-surface: #111113;
+  --rf-surface-2: #17171A;
+  --rf-line: #28282C;
+  --rf-ink: #F4F4F1;
+  --rf-mute: #8C8C94;
+  --rf-red: #E10600;
+  --rf-red-hot: #FF1A0D;
+  --rf-red-deep: #7E0300;
+  --rf-ok: #7BD68A;
+  --rf-warn: #E8C55B;
+
+  /* type */
+  --rf-display: 'Barlow Condensed', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  --rf-body: 'Barlow', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  --rf-mono: 'IBM Plex Mono', ui-monospace, monospace;
+
+  /* space + chrome */
+  --rf-max: 1440px;
+  --rf-gutter: 20px;
+  --rf-header-h: 96px;
+}

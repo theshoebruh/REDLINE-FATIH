@@ -1,0 +1,58 @@
+{
+  "note": "Provisional palette. Black + white with red as an accent only. Mirrors website/src/styles/tokens.css.",
+  "core": {
+    "black": {
+      "hex": "#09090A",
+      "role": "page background"
+    },
+    "surface": {
+      "hex": "#111113",
+      "role": "cards, panels"
+    },
+    "surface2": {
+      "hex": "#17171A",
+      "role": "nested panels, inputs"
+    },
+    "line": {
+      "hex": "#28282C",
+      "role": "hairlines, borders"
+    },
+    "ink": {
+      "hex": "#F4F4F1",
+      "role": "primary text"
+    },
+    "mute": {
+      "hex": "#8C8C94",
+      "role": "secondary text, technical labels"
+    }
+  },
+  "accent": {
+    "red": {
+      "hex": "#E10600",
+      "role": "CTAs, active nav, pricing, small indicators"
+    },
+    "redHot": {
+      "hex": "#FF1A0D",
+      "role": "hover state for red"
+    },
+    "redDeep": {
+      "hex": "#7E0300",
+      "role": "borders on red fills"
+    }
+  },
+  "status": {
+    "ok": {
+      "hex": "#7BD68A",
+      "role": "in stock, production ready"
+    },
+    "warn": {
+      "hex": "#E8C55B",
+      "role": "acceptable print resolution"
+    }
+  },
+  "rules": [
+    "Red is an accent, never a background wash.",
+    "Two background tones maximum per page.",
+    "Body text stays at or above 4.5:1 contrast; use full-opacity ink over photography."
+  ]
+}
