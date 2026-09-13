@@ -8,8 +8,13 @@ export const COMING_SOON = true;
 
 export const COMING_SOON_COPY = {
   status: 'Pre-launch',
-  kicker: 'The first drop is on the way',
-  blurb: 'Heavyweight tees built where car culture meets Christ. Five collections, custom prints on your own artwork, and a crew worth belonging to. We are finishing the last details.',
+  kicker: 'A note from the garage',
+  note: [
+    'Hope you’re excited — we know we are. We’re still tightening the last few bolts and finishing our build before the grand reveal.',
+    'Five collections, custom prints on your own artwork, and a crew worth belonging to. Stay tuned and stay holy.'
+  ],
+  signoff: 'See you at the line,',
+  signature: 'The RF Team',
   pillars: ['Christ', 'Cars', 'Community'],
   collections: ['JDM', 'GDM', 'Street', 'Motorsport', 'Youth']
 };

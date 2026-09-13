@@ -79,7 +79,10 @@ input, select, button, textarea { font-family: inherit; }
   margin: 24px 0 0; font-family: var(--rf-display); font-weight: 700; text-transform: uppercase;
   font-size: clamp(20px, 2.6vw, 30px); letter-spacing: .02em; color: #EDEDF0;
 }
-.rf-soon__blurb { margin: 14px 0 0; max-width: 520px; font-size: 17px; line-height: 1.6; color: #C8C8CE; text-wrap: pretty; text-shadow: 0 1px 14px rgba(0,0,0,.9); }
+.rf-soon__note { max-width: 500px; margin-top: 22px; border-left: 2px solid var(--rf-red); padding: 4px 0 4px 18px; }
+.rf-soon__blurb { margin: 0; font-size: 17px; line-height: 1.65; color: #DCDCE1; text-wrap: pretty; text-shadow: 0 1px 14px rgba(0,0,0,.9); }
+.rf-soon__blurb + .rf-soon__blurb { margin-top: 14px; }
+.rf-soon__signoff { margin-top: 18px; font-family: var(--rf-display); font-weight: 800; font-size: 20px; letter-spacing: .12em; text-transform: uppercase; color: #fff; }
 .rf-soon__strip { position: relative; border-top: 1px solid rgba(255,255,255,.1); background: rgba(8,8,10,.72); backdrop-filter: blur(8px); }
 .rf-soon__strip-inner { display: flex; align-items: center; gap: 20px; flex-wrap: wrap; padding-top: 26px; padding-bottom: 26px; }
 .rf-soon__chip {

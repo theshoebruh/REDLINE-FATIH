@@ -41,7 +41,13 @@ export default function ComingSoon() {
           </h1>
 
           <p className="rf-soon__tagline">{BRAND.tagline}</p>
-          <p className="rf-soon__blurb">{COPY.blurb}</p>
+          <div className="rf-soon__note">
+            {COPY.note.map((para) => (
+              <p key={para} className="rf-soon__blurb">{para}</p>
+            ))}
+            <div className="rf-soon__signoff">{COPY.signoff}</div>
+            <div className="rf-kicker" style={{ letterSpacing: '.2em', marginTop: 6 }}>{COPY.signature.toUpperCase()}</div>
+          </div>
 
           <div style={{ display: 'flex', gap: 26, flexWrap: 'wrap', marginTop: 34 }}>
             {COPY.pillars.map((label, i) => (
