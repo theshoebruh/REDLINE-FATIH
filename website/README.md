@@ -18,9 +18,12 @@ Every push to `main` builds this folder and publishes it to GitHub Pages
 - Original single-file prototype: https://theshoebruh.github.io/REDLINE-FATIH/prototype.html
 
 `vite.config.js` uses a relative `base`, so asset paths must stay relative
-(`images/...`, not `/images/...`). To use a custom domain, add
-`public/CNAME` containing the domain, point its DNS at GitHub Pages, and set the
-domain under repo Settings → Pages.
+(`images/...`, not `/images/...`).
+
+Custom domain: `redlinefaith.co.za` (GoDaddy DNS). It is set under repo
+Settings → Pages — **not** via a `CNAME` file, which Actions-based Pages ignores.
+GoDaddy records: four `A` records on `@` → 185.199.108.153, .109.153, .110.153,
+.111.153, and `CNAME` `www` → `theshoebruh.github.io`.
 
 ## What works
 

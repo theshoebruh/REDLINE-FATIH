@@ -35,7 +35,8 @@ jobs:
       # Keep the original single-file prototype reachable at /prototype.html
       - run: cp ../index.html dist/prototype.html
 
-      # Custom domain: put the domain in website/public/CNAME (e.g. redlinefaith.co.za)
+      # Custom domain (redlinefaith.co.za) is set in repo Settings → Pages, not a CNAME file —
+      # Actions-based Pages ignores CNAME files.
       - uses: actions/upload-pages-artifact@v5
         with:
           path: website/dist
