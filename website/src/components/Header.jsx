@@ -23,7 +23,7 @@ export default function Header() {
       <header style={{ position: 'sticky', top: 0, zIndex: 60, background: 'rgba(9,9,10,.92)', backdropFilter: 'blur(12px)', borderBottom: '1px solid var(--rf-line)' }}>
         <div className="rf-shell" style={{ display: 'flex', alignItems: 'center', gap: 20, padding: '14px var(--rf-gutter)' }}>
           <a href="#" onClick={goto('home')} style={{ display: 'flex', alignItems: 'center', gap: 10, color: 'var(--rf-ink)', flex: 'none' }}>
-            <img src="/images/brand/RF-logo-red.svg" alt="" width="34" height="34" />
+            <img src="images/brand/RF-logo-red.svg" alt="" width="34" height="34" />
             <span style={{ display: 'flex', flexDirection: 'column', lineHeight: 1 }}>
               <span style={{ fontFamily: 'var(--rf-display)', fontWeight: 900, fontSize: 19, letterSpacing: '.06em' }}>{BRAND.name.toUpperCase()}</span>
               <span style={{ fontFamily: 'var(--rf-mono)', fontSize: 8, letterSpacing: '.22em', color: 'var(--rf-mute)', marginTop: 3 }}>{BRAND.triad.toUpperCase()}</span>

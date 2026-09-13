@@ -17,10 +17,10 @@ export const PRODUCTS = [
     idea: 'A rotary housing half-buried at the mouth of an empty tomb. The engine that never dies, next to the grave that could not hold Him — sector markers, kanji and a cross on the horizon.',
     scripture: 'Matthew 28:6 — "He is not here; He has risen, just as He said." Printed across the back under the tomb, with the chest hit reading the power of resurrection.',
     images: [
-      { src: '/images/products/jdm-01/front-flat.png',  label: 'Front flat' },
-      { src: '/images/products/jdm-01/back-flat.png',   label: 'Back flat' },
-      { src: '/images/products/jdm-01/model-back.png',  label: 'Model back' },
-      { src: '/images/products/jdm-01/model-front.png', label: 'Model front' }
+      { src: 'images/products/jdm-01/front-flat.png',  label: 'Front flat' },
+      { src: 'images/products/jdm-01/back-flat.png',   label: 'Back flat' },
+      { src: 'images/products/jdm-01/model-back.png',  label: 'Model back' },
+      { src: 'images/products/jdm-01/model-front.png', label: 'Model front' }
     ]
   },
   { sku: 'JDM 02', slug: 'jdm-02', name: 'Redline Psalm', collection: 'JDM', price: 690, inStock: true, popularity: 91, rating: 4.7, reviewCount: 31 },

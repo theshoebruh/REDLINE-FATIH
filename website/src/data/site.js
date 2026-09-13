@@ -13,7 +13,7 @@ export const BRAND = {
   tagline: 'Shouting praise at the redline.',
   triad: 'Christ x Cars x Streetwear',
   est: 'Est. 2026 - South Africa',
-  heroImage: '/images/brand/hero-crew-garage.jpeg',
+  heroImage: 'images/brand/hero-crew-garage.jpeg',
   heroBlurb: 'Faith, cars and streetwear built into one thing. Heavyweight tees for people who chase apexes on Saturday and worship on Sunday.'
 };
 

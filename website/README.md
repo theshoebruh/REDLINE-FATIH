@@ -9,6 +9,19 @@ npm run dev      # http://localhost:5173
 npm run build    # → dist/
 ```
 
+## Deploy
+
+Every push to `main` builds this folder and publishes it to GitHub Pages
+(`.github/workflows/deploy-pages.yml`):
+
+- Live: https://theshoebruh.github.io/REDLINE-FATIH/
+- Original single-file prototype: https://theshoebruh.github.io/REDLINE-FATIH/prototype.html
+
+`vite.config.js` uses a relative `base`, so asset paths must stay relative
+(`images/...`, not `/images/...`). To use a custom domain, add
+`public/CNAME` containing the domain, point its DNS at GitHub Pages, and set the
+domain under repo Settings → Pages.
+
 ## What works
 
 Everything is client-side with mock data — no backend, no payments.
