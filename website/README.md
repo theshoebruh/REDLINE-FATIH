@@ -14,8 +14,8 @@ npm run build    # → dist/
 Every push to `main` builds this folder and publishes it to GitHub Pages
 (`.github/workflows/deploy-pages.yml`):
 
-- Live: https://theshoebruh.github.io/REDLINE-FATIH/
-- Original single-file prototype: https://theshoebruh.github.io/REDLINE-FATIH/prototype.html
+- Live: https://redlinefaith.co.za/ (www and theshoebruh.github.io/REDLINE-FATIH redirect here)
+- Original single-file prototype: https://redlinefaith.co.za/prototype.html
 
 `vite.config.js` uses a relative `base`, so asset paths must stay relative
 (`images/...`, not `/images/...`).
